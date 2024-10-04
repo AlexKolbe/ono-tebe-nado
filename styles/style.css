@@ -1,1 +1,38 @@
 /* место для вашего кода */
+body {
+  background-color: #fff;
+}
+
+.header {
+
+}
+
+.nav {
+
+}
+
+.nav-item{
+  list-style: circle;
+}
+
+.current {
+  list-style: none;
+
+}
+
+.cover {
+
+}
+.lots {
+
+}
+.about {
+
+}
+.footer {
+
+}
+
+.footer-cover {
+  
+}
