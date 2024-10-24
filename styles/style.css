@@ -38,7 +38,6 @@ body {
 
 .current {
   list-style: none;
-
 }
 
 .header__adress {
@@ -54,18 +53,37 @@ background-color: #000;
 .about {
 
 }
+
+/* footer */
+
 .footer {
   width: 1000px;
   display: flex;
+  padding: 0 50px 90px;
   justify-content: space-between;
 }
 
-.footer-cover {
-  
+.footer__adress {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .social-list {
   display: flex;
+  justify-content: end;
+  gap: 48px;
+  list-style: none;
+
 }
 
 footer__social-icon {
