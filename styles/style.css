@@ -24,8 +24,8 @@ body {
 .nav {
   align-self: center;
   display: flex;
-  justify-content: space-between;
-  gap: 32px;
+  justify-content: space-around;
+  gap: 10px;
 }
 
 
@@ -62,11 +62,12 @@ body {
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   color: #fff;
   text-transform: uppercase;
   width: 1100px;
-  padding: 165px 50px 0 50px;
+  padding: 165px 50px 50px;
+  margin: auto;
 }
 
 .cover__title {
@@ -77,13 +78,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  position: relative;
   z-index: 2;
 }
 
 .cover__description {
   margin-top: 120px;
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
   align-items: center;
   z-index: 2;
 }
@@ -95,6 +97,10 @@ body {
   text-transform: uppercase;
   color: #fff;
   z-index: 2;
+}
+
+.cover__description-text-span {
+  letter-spacing: 1.1em;
 }
 
 .overlay {
@@ -127,13 +133,14 @@ body {
 
 .bet-button {
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   background: none;
   border: 1px solid #fff;
   border-radius: 0;
   color: #fff;
   padding: 12px 32px;
+  z-index: 2;
 }
 
 /* LOTS  ЛОТЫ */
