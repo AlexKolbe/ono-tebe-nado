@@ -4,7 +4,7 @@
 }
 
 body {
-  width: 1100px;
+  min-width: 1100px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-  padding: 96px 24px 96px;
+  padding: 96px 24px 90px;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   align-items: center;
@@ -93,7 +93,7 @@ body {
   flex-direction: column;
   
   /* margin-top: 50px; */
-  padding: 195px 50px 137px;
+  padding: 190px 50px 167px;
   gap: 20px;
   
   position: relative;
@@ -112,12 +112,12 @@ body {
 }
 
 .aligned-text_center {
-margin-top: 70px;
+margin-top: 80px;
   text-align: center;
 }
 
 .aligned-text_right {
-margin-top: 70px;
+margin-top: 80px;
   text-align: end;
 }
 
@@ -133,7 +133,7 @@ margin-top: 70px;
   position: relative;
   z-index: 2;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 0 0 50px;
   color: #fff;
