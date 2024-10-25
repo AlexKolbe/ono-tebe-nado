@@ -93,7 +93,7 @@ body {
   flex-direction: column;
   
   /* margin-top: 50px; */
-  padding: 165px 50px 137px;
+  padding: 195px 50px 137px;
   gap: 20px;
   
   position: relative;
@@ -174,7 +174,7 @@ margin-top: 70px;
 /* LOTS  ЛОТЫ */
 
 .lots {
-padding: 180px 50px 180px;
+padding: 180px 24px 180px;
 }
 
 .lots__title {
