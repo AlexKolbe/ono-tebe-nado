@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-  padding: 96px 24px 90px;
+  padding: 96px 24px 86px;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   align-items: center;
@@ -174,7 +174,7 @@ margin-top: 80px;
 /* LOTS  ЛОТЫ */
 
 .lots {
-padding: 180px 24px 180px;
+padding: 190px 24px 180px;
 }
 
 .lots__title {
@@ -266,7 +266,8 @@ padding: 180px 24px 180px;
   display: flex;
   justify-content: space-between;
   gap: 72px;
-  padding: 0 50px 180px 50px;
+  /* padding: 0 24px 180px 50px; */
+  margin: 0 0 180px 0;
 }
 
 .about__column {
@@ -277,7 +278,7 @@ padding: 180px 24px 180px;
 .about__column:first-child {
   min-width: 334px;
   min-height: 563px;
-  margin: 0 24px 0 0;
+  /* margin: 0 24px 0 0; */
 }
 
 .about__column:last-child {
