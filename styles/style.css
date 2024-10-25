@@ -1,11 +1,7 @@
 /* место для вашего кода */
-:root {
-  --font-family: Raleway;
-}
 
 body {
   min-width: 1100px;
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
