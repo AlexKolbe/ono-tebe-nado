@@ -63,37 +63,49 @@ body {
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-size: 100%;
   color: #fff;
   text-transform: uppercase;
   width: 1100px;
   padding: 165px 50px 50px;
   margin: auto;
+  overflow: hidden;
 }
 
 .cover__title {
   font-size: 100px;
   font-weight: 700;
-  letter-spacing: 0.3em;
+  letter-spacing: 30px;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  padding: 164px 50px 129px;
   gap: 10px;
   position: relative;
   z-index: 2;
+  color: #fff;
 }
 
 .cover__description {
-  margin-top: 120px;
+  position: relative;
+  z-index: 2;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  z-index: 2;
+  padding: 0 0 50px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .cover__description-text {
 
   font-size: 22px;
+  padding: 0 0 0 35px;
+  word-spacing: 17px;
+  font-weight: lighter;
   line-height: 127%;
   text-transform: uppercase;
   color: #fff;
@@ -114,18 +126,25 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.aligned-text {
+  /* display: block; */
+  text-align: start;
+}
+
 .aligned-text_center {
-  width: 100%;
-  max-width: 1100px;
+  margin: 10px 0 0;
   text-align: center;
+  text-indent: -3%;
 }
 
 .aligned-text_right {
-  text-align: right;
+  margin: 2px 0 0;
+  text-align: center;
+  text-indent: 58.3%;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
+  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
@@ -133,6 +152,9 @@ body {
 }
 
 .bet-button {
+  margin: 0 12px 0 0;
+  border: 1px solid #fff;
+  padding: 10px 31px;
   font-size: 22px;
   font-weight: 500;
   text-transform: uppercase;
