@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-  padding: 97px 24px 70px;
+  padding: 96px 24px 96px;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   align-items: center;
@@ -37,13 +37,13 @@ body {
   display: flex;
   justify-content: space-around;
   gap: 33px;
-  text-underline-offset: 4px;
+  /* text-underline-offset: 4px; */
 }
 
 
 .header__logo {
   width: 140px;
-  margin: auto;
+  /* margin: auto; */
 }
 
 .logo-black {
@@ -55,10 +55,12 @@ body {
 .nav-item {
   list-style: circle;
   letter-spacing: 0.01em;
+  text-decoration: underline;
 }
 
 .current {
   list-style: none;
+  text-decoration: none;
 }
 
 .header__adress {
@@ -91,7 +93,7 @@ body {
   flex-direction: column;
   
   /* margin-top: 50px; */
-  padding: 265px 50px 137px;
+  padding: 165px 50px 137px;
   gap: 20px;
   
   position: relative;
